@@ -7,7 +7,7 @@ import AnData from './components/AnData/AnData';
 import { MainContextWrapper } from './Store/mainContext/mainContext';
 
 function App() {
-  const [loadComponent, setLoadComponent] = useState(<ShowHealthData/>)
+  const [loadComponent, setLoadComponent] = useState(<AddHealthData/>)
   const  buttonArr = [
     {
       id: 1,
